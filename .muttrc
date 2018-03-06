@@ -1,0 +1,18 @@
+# Nom de l'expéditeur du message
+set realname = "pi"
+
+# Activer TLS si disponible sur le serveur
+set ssl_starttls=yes
+# Toujours utiliser SSL lors de la connexion à un serveur
+set ssl_force_tls=yes
+
+# Configuration SMTP
+set smtp_url = "smtp://pi.alert30@gmail.com@smtp.gmail.com:587/"
+set smtp_pass = "21111988"
+set from = "pi.alert30@gmail.com"
+set use_envelope_from=yes
+
+# Paramètres locaux, date 
+set locale="fr_FR" 
+set date_format="%A %d %b %Y à %H:%M:%S (%Z)" 
+set locale="iso-8859-15"
